@@ -24,9 +24,11 @@ fun main() {
 
     val CompraGrande = CantidadActualizada >= 3 && TotalFinal > 30000
 
-    println("=================================== \n" +
-            "        Resumen de Compra \n" +
-            "===================================")
+    println(
+        "=================================== \n" +
+                "        Resumen de Compra \n" +
+                "==================================="
+    )
 
     println("Evento: $NombreEvento")
     println("Categoria: $Categoria")
